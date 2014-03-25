@@ -9,8 +9,8 @@ iPad Twitter UI for Android
 # Links
 
 * [Jalan for Tablet](https://play.google.com/store/apps/details?id=net.jalan.android.tablet)
-* [Hotpepper Gourmet HD](https://play.google.com/store/apps/details?id=jp.co.recruit.hotpeppertablet)
-* [Hotpepper Beauty for Tablet](https://play.google.com/store/apps/details?id=jp.co.recruit.hotpepper.beauty.tablet)
+* [Hotpepper Gourmet HD](https://play.google.com/store/apps/details?id=jp.co.recruit.hotpeppertablet) (beta fork)
+* [Hotpepper Beauty for Tablet](https://play.google.com/store/apps/details?id=jp.co.recruit.hotpepper.beauty.tablet) (beta fork)
 
 # License
 
