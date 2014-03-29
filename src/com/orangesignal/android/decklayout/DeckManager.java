@@ -41,8 +41,8 @@ public class DeckManager {
 	private final ArrayList<Fragment> mFragments = new ArrayList<Fragment>(0);
 
 	private int mAddAnimationId;
-	private int mInAnimationId;
-	private int mOutAnimationId;
+	private int mInAnimationId = R.animator.deck_card_rotate_in;
+	private int mOutAnimationId = R.animator.deck_card_rotate_out;
 	private int mRemoveAnimationId;
 
 	private final Activity mActivity;

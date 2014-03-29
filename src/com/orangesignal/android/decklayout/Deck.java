@@ -19,14 +19,13 @@
 package com.orangesignal.android.decklayout;
 
 import static android.view.ViewGroup.LayoutParams.FILL_PARENT;
-
 import com.orangesignal.android.decklayout.R;
-
 import android.animation.Animator;
 import android.animation.Animator.AnimatorListener;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
@@ -232,6 +231,7 @@ public class Deck extends FrameLayout {
 	 * すべての子ビューに対してサイズと位置を割り当てるべきときに呼び出され、
 	 * {@link #onMeasure(int, int)} で幅補正されたデッキカードを適切に並べます。
 	 */
+	@SuppressLint("WrongCall")
 	@Override
 	protected void onLayout(final boolean changed, final int l, final int t, final int r, final int b) {
 		final int count = getChildCount();
@@ -249,7 +249,7 @@ public class Deck extends FrameLayout {
 			View v = null;
 			for (int i = leftCardPosition; i < count; i++) {
 				final View child = getChildAt(i);
-				if (child.getVisibility() != GONE) {
+				if (child != null && child.getVisibility() != GONE) {
 					if (v != null) {
 						child.setX(v.getX() + v.getWidth() - v.getPaddingRight() - child.getPaddingLeft() + mSpacing);
 					}
