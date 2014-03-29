@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU Lesser General Public License as
+  published by the Free Software Foundation, either version 3 of the
+  License, or (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Lesser Public License for more details.
+
+  You should have received a copy of the GNU General Lesser Public
+  License along with this program.  If not, see
+  <http://www.gnu.org/licenses/lgpl-3.0.html>.
+-->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+	<objectAnimator
+		android:propertyName="rotationY"
+		android:valueType="floatType"
+		android:valueFrom="0"
+		android:valueTo="-90"
+		android:duration="@integer/deck_card_rotate_animation_duration"
+		android:interpolator="@android:interpolator/accelerate_quad" />
+	<objectAnimator
+		android:propertyName="scaleY"
+		android:valueType="floatType"
+		android:valueFrom="1.0"
+		android:valueTo="0.8"
+		android:duration="@integer/deck_card_rotate_animation_duration"
+		android:interpolator="@android:interpolator/accelerate_quad" />
+</set>
