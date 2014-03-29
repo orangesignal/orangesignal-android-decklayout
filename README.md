@@ -2,7 +2,13 @@
 
 iPad Twitter UI for Android
 
-## Prerequisites (supported android versions)
+## Prerequisites
+
+* [Android SDK](http://developer.android.com/sdk/)
+* [Apache Maven 3.0.x](http://maven.apache.org/)
+* [Maven Android SDK Deployer](https://github.com/mosabua/maven-android-sdk-deployer)
+
+## Supported android versions
 
 * Android 3.x (3.2+ recommended)
 
