@@ -18,6 +18,10 @@ iPad Twitter UI for Android
 * [Hotpepper Gourmet HD](https://play.google.com/store/apps/details?id=jp.co.recruit.hotpeppertablet) (beta fork)
 * [Hotpepper Beauty for Tablet](https://play.google.com/store/apps/details?id=jp.co.recruit.hotpepper.beauty.tablet) (beta fork)
 
+## Example
+
+* [Example App project](https://github.com/orangesignal/orangesignal-android-decklayout-example) (simple implementation)
+
 ## License
 
 * [The GNU Lesser General Public License, Version 3.0](http://www.gnu.org/licenses/lgpl-3.0.txt)   
