@@ -10,7 +10,7 @@ iPad Twitter UI for Android
 
 ## Supported android versions
 
-* Android 3.x (3.2+ recommended)
+* Android 3.x+ (3.2+ recommended)
 
 ## Case
 
