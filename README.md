@@ -12,7 +12,7 @@ iPad Twitter UI for Android
 
 * Android 3.x (3.2+ recommended)
 
-## Links
+## Powerd by
 
 * [Jalan for Tablet](https://play.google.com/store/apps/details?id=net.jalan.android.tablet)
 * [Hotpepper Gourmet HD](https://play.google.com/store/apps/details?id=jp.co.recruit.hotpeppertablet) (beta fork)
