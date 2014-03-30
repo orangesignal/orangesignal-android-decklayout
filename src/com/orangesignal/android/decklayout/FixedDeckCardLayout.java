@@ -24,7 +24,7 @@ import android.util.AttributeSet;
 /**
  * 固定幅のデッキカードレイアウトクラスを提供します。
  * 
- * @author 杉澤 浩二
+ * @author Koji Sugisawa
  */
 public final class FixedDeckCardLayout extends DeckCardLayout {
 

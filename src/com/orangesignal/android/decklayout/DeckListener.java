@@ -19,9 +19,9 @@
 package com.orangesignal.android.decklayout;
 
 /**
- * Deck のリスナーを提供します。
+ * {@link Deck} のリスナーを提供します。
  * 
- * @author 杉澤 浩二
+ * @author Koji Sugisawaß
  */
 public interface DeckListener {
 

@@ -31,7 +31,7 @@ import android.view.inputmethod.InputMethodManager;
 /**
  * バックスタックを使用せずに {@link Deck} で使用するフラグメントの関連付けを管理する機能を提供します。
  * 
- * @author 杉澤 浩二
+ * @author Koji Sugisawa
  */
 public class DeckManager {
 

@@ -885,7 +885,7 @@ public class Deck extends FrameLayout {
 	 * 指定されたビューがデッキカードであるかどうかを返します。
 	 * 
 	 * @param view ビュー
-	 * @return デッキカードである場合は <code>true</code>。それ以外の場合は <code>false</code>
+	 * @return デッキカードである場合は {@code true}。それ以外の場合は {@code false}
 	 */
 	private static boolean isCard(final View view) {
 		return (view != null) && (view instanceof DeckCardLayout);
