@@ -1,0 +1,43 @@
+buildscript {
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath 'com.android.tools.build:gradle:0.9.+'
+		classpath 'com.jakewharton.sdkmanager:gradle-plugin:0.9.+'
+	}
+}
+
+apply plugin: 'android-sdk-manager'
+apply plugin: 'android-library'
+
+repositories {
+	mavenCentral()
+}
+
+android {
+	compileSdkVersion 13
+	buildToolsVersion "19.0.3"
+
+	defaultConfig {
+		packageName "com.orangesignal.android.decklayout"
+		versionCode 1
+		versionName "1.0.0"
+		minSdkVersion 11
+	}
+
+	sourceSets {
+		main {
+			manifest.srcFile 'AndroidManifest.xml'
+			java.srcDirs = ['src']
+			resources.srcDirs = ['src']
+			res.srcDirs = ['res']
+		}
+		androidTest.setRoot('tests')
+	}
+
+	lintOptions {
+		abortOnError false
+	}
+
+}
